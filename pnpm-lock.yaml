@@ -1,0 +1,17 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: false
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  a:
+    dependencies:
+      c:
+        specifier: workspace:b@^
+        version: link:../b
+
+  b: {}
